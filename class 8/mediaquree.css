@@ -1,0 +1,55 @@
+/* Responsive Laptops and Desktops Device */
+@media only screen and (min-width: 992px) {
+  /* Header Section  */
+  .header-container {
+    padding: 0 20px;
+  }
+  /* Hero Section  */
+  .hero-container {
+    padding: 0 20px;
+  }
+  .hero_left h1 {
+    font-size: 54px;
+    line-height: 60px;
+  }
+  /* Job Section */
+  .work_section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .work_section {
+    gap: 130px;
+  }
+  .left_work h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .right_work img {
+    width: 438px;
+  }
+  /* Testemonial Section */
+  .reveiw-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* Career Section */
+  .Career_section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .inner_section h2 {
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 594px;
+  }
+  /* Footer Section  */
+  .footer_container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer-con h2 {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 420px;
+  }
+}

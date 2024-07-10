@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container forn-container">
+          <div class="booking-img">
+            <img src="img/dr.jpg" alt="" />
+          </div>
+          <div class="booking-form">
+            <!-- Form Start -->
+            <form action="#">
+              <h1>Booking a Consultaion</h1>
+              <!-- name -->
+              <input
+                type="text"
+                placeholder="e.g Jhon Ahmad"
+                name="your_name"
+              />
+              <!-- Email -->
+              <input
+                type="email"
+                placeholder="example@gmail.com"
+                name="your_email"
+              />
+              <!-- Phone -->
+              <input id="Phone" type="number" placeholder="+91 95472 74602" />
+              <!-- Massage -->
+              <textarea
+                name="your_massage"
+                cols="30"
+                rows="10"
+                placeholder="Hello, I have a issue with ...."
+                id=""
+              ></textarea>
+              <!-- Gender -->
+              <div class="gender-group">
+                <label for="gender">Choose Gender</label>
+                <div class="gender">
+                  <input type="radio" name="Gender" value="male" id="male" />
+                  <label for="male">Male</label>
+                  <input
+                    type="radio"
+                    name="Gender"
+                    value="female"
+                    id="Female"
+                  />
+                  <label for="Female">Female</label>
+                  <input type="radio" name="Gender" value="other" id="other" />
+                  <label for="other">Other</label> <br /><br />
+                </div>
+              </div>
+              <input type="submit" value="Book a Call" class="btn" />
+            </form>
+            <!-- Form End -->
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

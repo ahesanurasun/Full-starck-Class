@@ -1,0 +1,254 @@
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.cotaner{
+    max-width: 1000px;
+    margin: auto;
+}
+.header-container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 115px;
+}
+.button{
+    background-color: #383838;
+    text-align: center;
+    padding: 10px 31.5px;
+    border-radius: 10px;
+}
+.button a{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+.manu{
+    display: flex;
+    gap: 20px;
+}
+.manu a{
+    color: black;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* hero section */
+.hero-section{
+    text-align: center;
+}
+.hero-section img{
+    max-width: 203px;
+    height: 203px;
+}
+.h_span{
+    color: #878CFF;
+}
+h1{
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.hero-section p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #777777;
+    margin-bottom: 40px;
+}
+.hero-section{
+    margin-bottom: 115px;
+}
+.btn-primary{
+    background-color: #878CFF;
+    padding: 9px 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* about section */
+.about{
+    background-color: #878CFF1C;
+    padding: 100px 0;
+}
+.ab-section img{
+    width: 349px;
+    height: 349px;
+    padding-right: 70px;
+    border-radius: 8px;
+}
+.ab-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+.about_more{
+    padding-left: 70px;
+    
+}
+.ab-section p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    color: #535353;
+    width: 371px;
+}
+
+/* My work Section  */
+.my_work{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.my_work h3{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-transform: capitalize;
+    text-align: center;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.wor{
+    width: 33.33%;
+    /* padding: 20px; */
+}
+.wor img{
+    margin-bottom: 34px;
+    box-shadow: 0px 17px 40px 0px #00000033;
+    border-radius: 8px;
+}
+.wor p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    width: 269px;
+}
+.wor a{
+    color: #878CFF;
+}
+
+/* Post Section */
+.post_section h4{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #878CFF;
+}
+.post_section{
+    padding-bottom: 104px;
+}
+.box{
+    display: flex;
+    gap: 26px;
+}
+.left-box, .right-box{
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 30px;
+
+}
+.left-box h5, .right-box h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color:#777777;
+
+}
+.left-box h3{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    width: 325px;
+    color:#21243D;
+}
+.right-box h3{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    width: 330px;
+    color:#21243D;
+}
+
+.left-box p, .right-box p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    color: #6F6F6F;
+}
+.left-box a, .right-box a{
+    color: #878CFF;
+}
+
+/* Footer */
+footer{
+    background-color: #000000;
+    text-align: center;
+}
+.icon{
+    padding-top: 54px;
+}
+.icon a{
+    padding-right: 20px;
+}
+.icon p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 51px;
+
+}
+
+

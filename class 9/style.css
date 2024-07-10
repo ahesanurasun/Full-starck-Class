@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --Primary-color: #385f96;
+  --Secondary-color: #4e4e4e;
+  --Basic-white-color: #fff;
+  --Basic-black-color: #000;
+  --before-after-colo: #44d1d9c7;
+}
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  color: var(--Basic-white-color);
+  padding: 14px 41px;
+  background-color: var(--Primary-color);
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  display: inline-block;
+  transition: all 0.8s ease;
+}
+.btn:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+  background-color: var(--before-after-colo);
+}
+/* .hero-btn:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+  background-color: var(--before-after-colo);
+} */
+/* Global Css */
+/* Header Section Star */
+.header-section {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manu {
+  display: flex;
+  gap: 20px;
+}
+.manu a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.1px;
+  letter-spacing: 0.005em;
+  color: var(--Primary-color);
+}
+
+/* Hero Section Start */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 245px;
+}
+.hero-left {
+  max-width: 500px;
+}
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.04px;
+  letter-spacing: 0.005em;
+  color: var(--Primary-color);
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 2;
+}
+.hero-left h1::before {
+  content: "";
+  width: 173px;
+  height: 186px;
+  top: -103px;
+  left: -80px;
+  background-image: url(img/before.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+.hero-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  color: var(--Secondary-color);
+  padding-bottom: 30px;
+}
+/* Hero Section End */
+/* About Section Start */
+.about-section {
+  padding: 200px 0;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 166px;
+}
+.about-right {
+  max-width: 526px;
+}
+.about-right h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.78px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: var(--Primary-color);
+  padding-bottom: 39px;
+  position: relative;
+}
+.about-right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  color: var(--Secondary-color);
+  padding-bottom: 29px;
+}
+.about-right h2::before {
+  content: "";
+  width: 80px;
+  height: 5px;
+  top: -28px;
+  background-color: var(--before-after-colo);
+  position: absolute;
+}
+/* About Section End */
+/* Project Section Start */
+.project {
+  background-image: url(img/progect-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-section {
+  padding: 112px 0;
+}
+.project-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 222px;
+}
+.pro-left {
+  width: 466px;
+}
+.pro-left h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.78px;
+  letter-spacing: 0.005em;
+  color: var(--Primary-color);
+  padding-bottom: 28px;
+}
+/* Project Section End */
+/* Footer Section Start */
+.footer-section {
+  background-color: var(--Primary-color);
+}
+.footer-section p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 25px 0;
+  text-align: center;
+  color: var(--Basic-white-color);
+}
+.footer-section span {
+  color: red;
+}
+/* Footer Section End */
