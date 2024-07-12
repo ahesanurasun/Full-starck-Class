@@ -1,1 +1,13 @@
 Copy - Alt+ shift+ up/down arrow
+// ls - list of items
+// cd + folder name - change directory
+// touch + file name - create a new file
+// cd .. - go back
+// mkdir + folder name- make a folder
+// ctrl + c - operation override
+// clear - clean terminal
+
+// git init - > enable git feature
+// git status -> check status -> M / A / U
+// git add . -> Add all files for tracking (git will start tracking)
+// git commit -m "message" -> save version history with a commit message
